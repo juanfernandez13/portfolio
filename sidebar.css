@@ -1,0 +1,31 @@
+body{
+    background: linear-gradient(180deg, #29B6F6 0.75%, #01579B 22.81%, #000 57.81%);
+    height: 400vh;
+    display: flex;
+}
+
+#sidebar {
+    height: 100vh;
+    width: 8vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#navigation {
+    position: fixed;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.nav-options {
+    position: relative;
+    color: white;
+    font-weight: 700;
+    font-size: 1.2rem;
+    transform: rotate(270deg);
+    display: flex;
+    justify-content: center;
+}

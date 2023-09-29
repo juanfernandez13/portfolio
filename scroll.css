@@ -1,0 +1,7 @@
+#scroll-container {
+    height: 400vh;
+    width: 92vw;
+}
+html {
+    scroll-behavior: smooth;
+}
